@@ -1,10 +1,10 @@
 import React from 'react';
 
 function Card(props){
-  console.log("Card: props = ",props);
+  // console.log("Card: props = ",props);
   return(
-    <div>
-      <p>{props.title}</p>
+    <div className="Card">
+      <h3>{props.title}</h3>
       <p>{props.content}</p>
     </div>
   );
