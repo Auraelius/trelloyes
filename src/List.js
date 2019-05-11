@@ -2,6 +2,11 @@ import React from 'react';
 
 function List(props){
   console.log(props);
-  return(<p>This is a list</p>);
+  return(
+  <div>
+    <p>{props.header}</p>
+  </div>
+  
+    );
 }
 export default List;
